@@ -29,14 +29,6 @@ form {
     padding: 24px;
 }
 
-button {
-    padding: 12px 24px;
-    background-color: #0057ff;
-    color: white;
-    border: none;
-    border-radius: 8px;
-}
-
 form label {
     display: block;
     font-weight: 600;

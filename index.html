@@ -10,9 +10,9 @@
 
 <body>
     <form>
-        <label for="binary-number">Enter binary number: </label>
-        <input type="text" id="binary-number" name="binary">
-        <button type="submit" class="submit-button">Submit</button>
+        <label for="binary-number">Enter binary number(up to 8 digits): </label>
+        <input type="text" id="binary-number" name="binary" maxlength="8" pattern="[01]{1,8}" required>
+        <small id="error-message"></small>
         <script src="script.js"></script>
     </form>
 </body>
